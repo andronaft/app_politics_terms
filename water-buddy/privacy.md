@@ -1,15 +1,15 @@
 # Water Buddy — Privacy Policy
 
-_Last updated: October 23, 2026_
+_Last updated: October 28, 2026_
 
 Water Buddy ("the app", "we") is a water tracker. This policy explains what data the app handles and why. In short: **your water log stays on your device, and we do not run any servers that receive it.**
 
 ## Data stored only on your device
 The following never leaves your phone unless you back up your device with Apple or Google:
-- Water you log (amounts and times), daily totals and streaks
+- Water and other drinks you log (amounts, times and the type of drink), daily totals and streaks
 - Your daily goal, and the weight and activity level you enter to calculate it (only the resulting goal is stored)
 - Reminder schedule, cup sizes and Buddy's outfit
-- Whether you finished onboarding
+- Whether you finished onboarding, and whether the app has already asked you for a rating
 
 We cannot see, access or recover this data. Deleting the app deletes it.
 
@@ -22,6 +22,16 @@ To check whether you have an active subscription, the app uses **RevenueCat** (R
 - basic device and app information needed to validate purchases (for example, app version, platform, country/store).
 
 This data is used only to provide and restore your subscription. See RevenueCat's privacy policy: https://www.revenuecat.com/privacy
+
+## Exporting your history
+With Pro, you can export your daily totals as a CSV file. The app creates the file on your device and opens your
+phone's share sheet; the file goes only where you choose to send it (for example email, Files or a cloud drive). We
+never receive it. Whoever you share it with handles it under their own terms.
+
+## Rating the app
+Once, after you have met your goal on three days, the app may show the App Store or Google Play rating window. That
+window is run by Apple or Google: a rating or review you leave there is handled by them under their policies, and we
+see it only as a public review on the store. "Rate Water Buddy" in Settings opens the same window or the store page.
 
 ## Notifications
 If you allow notifications, reminders are scheduled locally on your device. No notification data is sent to us.
