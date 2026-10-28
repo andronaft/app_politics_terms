@@ -6,6 +6,7 @@ Water Buddy ("the app", "we") is a water tracker. This policy explains what data
 
 ## Data stored only on your device
 The following never leaves your phone unless you back up your device with Apple or Google:
+
 - Water and other drinks you log (amounts, times and the type of drink), daily totals and streaks
 - Your daily goal, and the weight and activity level you enter to calculate it (only the resulting goal is stored)
 - Reminder schedule, cup sizes and Buddy's outfit
@@ -17,6 +18,7 @@ We cannot see, access or recover this data. Deleting the app deletes it.
 Subscriptions are processed by **Apple (App Store)** or **Google (Google Play)**. We never receive your payment details.
 
 To check whether you have an active subscription, the app uses **RevenueCat** (RevenueCat, Inc.), a subscription service provider. RevenueCat receives:
+
 - an anonymous, randomly generated app user ID (not linked to your name, email or phone number);
 - your purchase and subscription history from the App Store or Google Play;
 - basic device and app information needed to validate purchases (for example, app version, platform, country/store).
