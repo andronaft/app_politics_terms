@@ -1,6 +1,6 @@
 # Water Buddy — Terms of Use
 
-_Last updated: October 23, 2026_
+_Last updated: November 2, 2026_
 
 By using Water Buddy ("the app") you agree to these terms.
 
@@ -8,7 +8,7 @@ By using Water Buddy ("the app") you agree to these terms.
 Water Buddy helps you log water and stay hydrated. The daily goal and reminders are **general guidance, not medical advice**. Consult a doctor about your personal needs, especially if you have a medical condition, are pregnant, or are an athlete with special requirements.
 
 ## Water Buddy Pro subscriptions
-- Pro is offered as auto-renewable subscriptions (yearly with a free trial, and weekly). Prices are shown in the app before you buy and may vary by country.
+- Pro is offered as an auto-renewable yearly subscription with a free trial. Prices are shown in the app before you buy and may vary by country.
 - Payment is charged to your Apple ID or Google Play account when you confirm the purchase. If a free trial is offered, you are charged when the trial ends unless you cancel before then.
 - Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period. Your account is charged for renewal within 24 hours before the end of the current period.
 - You can manage and cancel subscriptions in your App Store or Google Play account settings. Deleting the app does not cancel a subscription.
