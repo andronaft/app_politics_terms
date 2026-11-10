@@ -1,6 +1,6 @@
 # Mozhna — Terms of Use
 
-_Last updated: November 5, 2026_
+_Last updated: November 10, 2026_
 
 By using Mozhna ("the app") you agree to these terms.
 
@@ -8,7 +8,7 @@ By using Mozhna ("the app") you agree to these terms.
 Mozhna helps you log expenses and shows how much you can safely spend until your next income. The number it shows is a **calculation based on what you enter, not financial advice**. Check your real bank balance before making decisions that depend on it.
 
 ## Your data
-All data stays on your device. See the Privacy Policy. You are responsible for backing up your device if you want to keep your records.
+Without an account, all data stays on your device and you are responsible for backing it up. With an optional account, your records sync through our server and the phrases you send to AI are processed by Google Gemini; AI answers can be wrong, so check them before saving. You can delete the account in the app. See the Privacy Policy.
 
 ## Price
 The app is free in this version. If paid features are added later, prices will be shown in the app before any purchase and these terms will be updated.
@@ -39,7 +39,7 @@ _Оновлено: 5 листопада 2026_
 Можна допомагає записувати витрати й показує, скільки можна витратити до наступного доходу. Це число є **розрахунком на основі введених вами даних, а не фінансовою порадою**. Перевіряйте реальний баланс у банку перед рішеннями, які від нього залежать.
 
 ## Ваші дані
-Усі дані лишаються на вашому пристрої (див. Політику приватності). Резервне копіювання пристрою на вашій відповідальності.
+Без акаунта всі дані лишаються на вашому пристрої, і резервне копіювання на вашій відповідальності. З акаунтом (за бажанням) записи синхронізуються через наш сервер, а фрази, які ви надсилаєте ШІ, обробляє Google Gemini; ШІ може помилятися, тож перевіряйте результат перед збереженням. Акаунт можна видалити в застосунку. Див. Політику приватності.
 
 ## Ціна
 У цій версії застосунок безкоштовний. Якщо пізніше з'являться платні функції, ціни будуть показані в застосунку до покупки, а ці умови буде оновлено.
