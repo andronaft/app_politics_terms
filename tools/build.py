@@ -12,7 +12,7 @@ h1{{line-height:1.2}}a{{color:#2f7bff}}@media(prefers-color-scheme:dark){{body{{
 apps = []
 for d in sorted(p for p in ROOT.iterdir() if p.is_dir() and not p.name.startswith(('.', 'tools'))):
     docs = []
-    for name in ('privacy', 'terms'):
+    for name in ('privacy', 'terms', 'delete-account'):
         md = d / f'{name}.md'
         if not md.exists():
             continue
