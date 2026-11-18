@@ -1,6 +1,6 @@
 # Water Buddy — Privacy Policy
 
-_Last updated: October 28, 2026_
+_Last updated: November 18, 2026_
 
 Water Buddy ("the app", "we") is a water tracker. This policy explains what data the app handles and why. In short: **your water log stays on your device, and we do not run any servers that receive it.**
 
@@ -8,9 +8,12 @@ Water Buddy ("the app", "we") is a water tracker. This policy explains what data
 The following never leaves your phone unless you back up your device with Apple or Google:
 
 - Water and other drinks you log (amounts, times and the type of drink), daily totals and streaks
+- Alcoholic drinks you note in the alcohol log (type, amount and time)
 - Your daily goal, and the weight and activity level you enter to calculate it (only the resulting goal is stored)
-- Reminder schedule, cup sizes and Buddy's outfit
+- Reminder schedule, cup sizes, and Buddy's name, color and outfit
 - Whether you finished onboarding, and whether the app has already asked you for a rating
+
+The home screen widget reads today's total from the same storage on your device.
 
 We cannot see, access or recover this data. Deleting the app deletes it.
 
@@ -24,6 +27,20 @@ To check whether you have an active subscription, the app uses **RevenueCat** (R
 - basic device and app information needed to validate purchases (for example, app version, platform, country/store).
 
 This data is used only to provide and restore your subscription. See RevenueCat's privacy policy: https://www.revenuecat.com/privacy
+
+## Apple Health
+On iPhone you can turn on Apple Health in Settings. Only then, and only after you allow it in Apple's Health permission
+window, the app saves the drinks you log to Health as Water. It asks for no permission to read your Health data; it only
+updates or removes the Water entries it saved itself, when you change or delete a drink in the app. Health data is not
+sent to us or to anyone else, is not used for advertising, and is not stored in iCloud by us. You can turn it off in
+Settings or in the Health app at any time.
+
+## Backup to a file
+"Back up" in Settings saves your log and settings in one file and opens your phone's share sheet, so you choose where
+it goes (for example Files, a cloud drive or email). "Restore" reads such a file back. We never receive it.
+
+## Sharing your streak
+"Share" on your streak makes a picture card on your device and opens the share sheet. It goes only where you send it.
 
 ## Exporting your history
 With Pro, you can export your daily totals as a CSV file. The app creates the file on your device and opens your
