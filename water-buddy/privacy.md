@@ -1,6 +1,6 @@
 # Water Buddy — Privacy Policy
 
-_Last updated: November 18, 2026_
+_Last updated: November 20, 2026_
 
 Water Buddy ("the app", "we") is a water tracker. This policy explains what data the app handles and why. In short: **your water log stays on your device, and we do not run any servers that receive it.**
 
@@ -18,15 +18,15 @@ The home screen widget reads today's total from the same storage on your device.
 We cannot see, access or recover this data. Deleting the app deletes it.
 
 ## Purchases and subscriptions
-Subscriptions are processed by **Apple (App Store)** or **Google (Google Play)**. We never receive your payment details.
+Subscriptions, and single outfits you buy once, are processed by **Apple (App Store)** or **Google (Google Play)**. We never receive your payment details.
 
-To check whether you have an active subscription, the app uses **RevenueCat** (RevenueCat, Inc.), a subscription service provider. RevenueCat receives:
+To check whether you have an active subscription or have bought an outfit, the app uses **RevenueCat** (RevenueCat, Inc.), a subscription service provider. RevenueCat receives:
 
 - an anonymous, randomly generated app user ID (not linked to your name, email or phone number);
 - your purchase and subscription history from the App Store or Google Play;
 - basic device and app information needed to validate purchases (for example, app version, platform, country/store).
 
-This data is used only to provide and restore your subscription. See RevenueCat's privacy policy: https://www.revenuecat.com/privacy
+This data is used only to provide and restore your subscription and your outfits. See RevenueCat's privacy policy: https://www.revenuecat.com/privacy
 
 ## Apple Health
 On iPhone you can turn on Apple Health in Settings. Only then, and only after you allow it in Apple's Health permission
@@ -41,6 +41,20 @@ it goes (for example Files, a cloud drive or email). "Restore" reads such a file
 
 ## Sharing your streak
 "Share" on your streak makes a picture card on your device and opens the share sheet. It goes only where you send it.
+
+## Sending a postcard
+"Send a 'Drink water!' postcard" in Settings makes a picture card on your device, with the name you type if you want one,
+and opens the share sheet with that picture and a line of text. It goes only where you send it. Nothing goes to us, and the
+name you type is not saved.
+
+## Tapping your bottle
+An NFC sticker on a bottle can hold a link that starts with `waterbuddy://`. When you touch your phone to it, your phone
+opens the link in the app, and the app adds one glass to the log on this phone. The app does not read NFC itself, asks for
+no NFC permission, and the link only carries an amount: it contacts no server.
+
+## Quick settings tile (Android)
+If you add Buddy's tile to the quick settings panel, it shows today's total from the storage on your device and adds a
+glass when you tap it. It needs no permission and sends nothing.
 
 ## Exporting your history
 With Pro, you can export your daily totals as a CSV file. The app creates the file on your device and opens your
