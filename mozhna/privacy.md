@@ -1,6 +1,6 @@
 # Mozhna — Privacy Policy
 
-_Last updated: November 10, 2026_
+_Last updated: November 20, 2026_
 
 Mozhna ("the app", "we") answers one question: how much money you can safely spend until your next income. This policy explains what data the app handles and why.
 
@@ -37,6 +37,9 @@ If you connect monobank, the app uses the personal token you create at api.monob
 
 The token stays only on your phone, in the system keychain, and is never sent to our server. If you are signed in, the imported transactions sync like the ones you type.
 
+## A setup file for someone else
+"Set it up for someone" makes a small file with the incomes, regular payments, the amount, the name you typed for the person and the names of the payments, for example your mum. The app does not send it anywhere: you share it yourself through a messenger of your choice, and that messenger's own policy applies to it. On the other phone the app reads the file only when it is opened there, and asks before it adds anything.
+
 ## What the app does not do
 - No ads, no analytics, no crash reporting, no advertising identifiers
 - No tracking across other apps or websites
@@ -66,7 +69,7 @@ mobile.support@zhukovskyi.space
 
 # Можна — Політика конфіденційності
 
-_Остання зміна: 10 листопада 2026_
+_Остання зміна: 20 листопада 2026_
 
 «Можна» відповідає на одне питання: скільки грошей можна безпечно витратити до наступного доходу. Тут пояснено, з якими даними працює застосунок і навіщо.
 
@@ -102,6 +105,9 @@ _Остання зміна: 10 листопада 2026_
 Якщо ви підключаєте monobank, застосунок використовує особистий токен, який ви створюєте на api.monobank.ua. Він завантажує виписку **напряму з monobank на ваш телефон** і лише читає її: рухати гроші застосунок не може.
 
 Токен лишається тільки на телефоні, у системному сховищі ключів, і ніколи не йде на наш сервер. Якщо ви в акаунті, завантажені операції синхронізуються, як і ті, що ви вносите самі.
+
+## Файл налаштувань для іншої людини
+«Налаштувати за когось» створює невеликий файл із доходами, регулярними платежами, сумою, іменем людини й назвами платежів, які ви вписали для іншої людини, наприклад для мами. Застосунок нікуди його не надсилає: ви самі пересилаєте його в месенджері, який оберете, і на нього поширюються правила цього месенджера. На іншому телефоні застосунок читає файл лише тоді, коли його там відкрили, і питає, перш ніж щось додати.
 
 ## Чого застосунок не робить
 - Немає реклами, аналітики, звітів про збої, рекламних ідентифікаторів
