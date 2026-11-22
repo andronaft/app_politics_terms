@@ -22,7 +22,9 @@ def moved(app, name, page):
     note = (f'<aside style="border:1px solid #c9d6ee;border-radius:12px;padding:4px 16px;margin-bottom:16px;font-size:15px">'
             f'<p>{en} <a href="{url}">{url}</a>. The text below is the same.</p>'
             f'<p lang="uk">{uk}: <a href="{url}">{url}</a>. Текст нижче той самий.</p></aside>\n')
-    page = page.replace('</title>', f'</title>\n<link rel="canonical" href="{url}">', 1)
+    page = page.replace('</title>', f'</title>\n<link rel="canonical" href="{url}">'
+                        f'\n<meta http-equiv="refresh" content="0; url={url}">'
+                        f'\n<script>location.replace("{url}" + location.hash)</script>', 1)
     return page.replace('<body>', '<body>' + note, 1)
 
 
