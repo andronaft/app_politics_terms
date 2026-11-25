@@ -9,6 +9,23 @@ PAGE = """<!doctype html><html lang="en"><head><meta charset="utf-8">
 h1{{line-height:1.2}}a{{color:#2f7bff}}@media(prefers-color-scheme:dark){{body{{background:#0a1224;color:#eaf1ff}}}}</style>
 </head><body>{body}</body></html>"""
 
+# Since 23.11.2026 the privacy policy and terms live on zhukovskyi.space; the pages here keep the same text and point there.
+MOVED = {'privacy': ('This privacy policy now lives at', 'Ця політика конфіденційності тепер тут'),
+         'terms': ('These terms of use now live at', 'Ці умови використання тепер тут')}
+
+
+def moved(app, name, page):
+    if name not in MOVED:
+        return page
+    url = f'https://zhukovskyi.space/apps/{app}/{name}/'
+    en, uk = MOVED[name]
+    note = (f'<aside style="border:1px solid #c9d6ee;border-radius:12px;padding:4px 16px;margin-bottom:16px;font-size:15px">'
+            f'<p>{en} <a href="{url}">{url}</a>. The text below is the same.</p>'
+            f'<p lang="uk">{uk}: <a href="{url}">{url}</a>. Текст нижче той самий.</p></aside>\n')
+    page = page.replace('</title>', f'</title>\n<link rel="canonical" href="{url}">', 1)
+    return page.replace('<body>', '<body>' + note, 1)
+
+
 apps = []
 for d in sorted(p for p in ROOT.iterdir() if p.is_dir() and not p.name.startswith(('.', 'tools'))):
     docs = []
@@ -19,7 +36,7 @@ for d in sorted(p for p in ROOT.iterdir() if p.is_dir() and not p.name.startswit
         text = md.read_text()
         title = text.splitlines()[0].lstrip('# ').strip()
         (d / name).mkdir(exist_ok=True)
-        (d / name / 'index.html').write_text(PAGE.format(title=html.escape(title), body=markdown.markdown(text)))
+        (d / name / 'index.html').write_text(moved(d.name, name, PAGE.format(title=html.escape(title), body=markdown.markdown(text))))
         docs.append((name, title))
     if docs:
         apps.append((d.name, docs))
