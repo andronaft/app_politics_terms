@@ -1,11 +1,11 @@
 # Water Buddy — Privacy Policy
 
-_Last updated: November 20, 2026_
+_Last updated: November 22, 2026_
 
 Water Buddy ("the app", "we") is a water tracker. This policy explains what data the app handles and why. In short: **your water log stays on your device, and we do not run any servers that receive it.**
 
 ## Data stored only on your device
-The following never leaves your phone unless you back up your device with Apple or Google:
+The following never leaves your phone. On Android the app keeps it out of Google's backup and out of the copy to a new phone, so use "Back up" (below) to move it. On iPhone it may be included in your iPhone's own backup, which Apple handles under its policy.
 
 - Water and other drinks you log (amounts, times and the type of drink), daily totals and streaks
 - Alcoholic drinks you note in the alcohol log (type, amount and time)
@@ -37,7 +37,8 @@ Settings or in the Health app at any time.
 
 ## Backup to a file
 "Back up" in Settings saves your log and settings in one file and opens your phone's share sheet, so you choose where
-it goes (for example Files, a cloud drive or email). "Restore" reads such a file back. We never receive it.
+it goes (for example Files, a cloud drive or email). "Restore" reads such a file back. This file is how your log moves to
+a new phone. We never receive it.
 
 ## Sharing your streak
 "Share" on your streak makes a picture card on your device and opens the share sheet. It goes only where you send it.
